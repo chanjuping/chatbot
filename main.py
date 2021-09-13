@@ -12,7 +12,7 @@ bot = ChatBot(
     'Sparky',
     logic_adapters=[
         'chatterbot.logic.BestMatch',
-        'chatterbot.logic.TimeLogicAdapter'
+        # 'chatterbot.logic.TimeLogicAdapter'
     ]
 )
 
@@ -23,14 +23,25 @@ trainer = ListTrainer(bot)
 trainer.train([
     'Hi',
     'Hello',
-    'I need roadmap for Competitive Programming',
-    'Just create an account on GFG and start',
-    'I have a query.',
-    'Please elaborate, your concern',
-    'How long it will take to become expert in Coding ?',
-    'It usually depends on the amount of practice.',
+    'It may be a good idea to join a hackathon',
+    'I have a query',
+    'Who are you',
+    'Who am I',
+    'Please elaborate your concern',
     'Ok Thanks',
     'No Problem! Have a Good Day!'
+    'You may test that assumption at your convenience'
+    'KAI SU TEKNON',
+    'Sage art: True several thousand BONKS!'
+    'Are you not shocked?'
+    'I got a lot going on lately'
+    'Looks like you do not have any health insurance so we are gonna let you die',
+    'We regret to inform you the Third Impact is in progress',
+    'To Fuck Around is Human. To Find Out is Divine.'
+    'Every dead body on Everest was once a highly motivated person so... Maybe calm down.'
+    'I am going to defeat you with the power of friendship, and this gun I found.'
+    'Run. Run as Administrator.'
+    'TAKE ONLY PHOTOS. LEAVE ONLY FOOTPRINTS. KILL ONLY TIM.'
 ])
 
 ## Neverending loop 
