@@ -29,8 +29,8 @@ trainer.train([
     'Who am I',
     'Please elaborate your concern',
     'Ok Thanks',
-    'No Problem! Have a Good Day!'
-    'You may test that assumption at your convenience'
+    'No Problem! Have a Good Day!',
+    'You may test that assumption at your convenience',
     'KAI SU TEKNON',
     'Sage art: True several thousand BONKS!',
     'Are you not shocked?',
