@@ -47,10 +47,10 @@ trainer.train([
 ## Neverending loop 
 
 while True:
-    request=input('Say something: ')
+    request = input('Say something: ')
     if request == 'bye' or request == 'exit':
         print('Bot: Goodbye')
         break
     else:
-        response=bot.get_response(request)
-        print('Bot:', response)
+        response = bot.get_response(request)
+        print('Sparky:', response)
